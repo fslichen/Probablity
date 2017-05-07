@@ -1,0 +1,7 @@
+Define f as probablity density function.
+Define theta as parameter vector.
+Define x as the data vector.
+Define l(theta) as the MLE function.
+l(theta) = f(x0, theta) * ... * f(x_n-1, theta)
+ln(l(theta)) = ln(f(x0, theta)) + ... + ln(f(x_n-1, theta))
+Find the maximum value of ln(l(theta)) by gradient ascend and therefore figure out theta.
